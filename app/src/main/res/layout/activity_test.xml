@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivities.TestActivity"
+    android:background="@drawable/homepagebackground2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/capriola"
+        android:text="Test Yourself"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/backImageButton"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/arrow"
+        android:backgroundTint="@color/white" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        app:tabIndicatorColor="@color/white"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white"
+        android:background="@color/light_green"/>
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tabLayout"
+        android:layout_height="750dp"/>
+
+
+</RelativeLayout>

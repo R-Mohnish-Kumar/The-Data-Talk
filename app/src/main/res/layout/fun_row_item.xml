@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView
+    android:id="@+id/funDataCardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:neumorph_shapeAppearance="@style/NeumorphismCard"
+    app:neumorph_backgroundColor="#E4EBF4"
+    app:neumorph_shadowColorDark="#CDD5EA"
+    app:neumorph_shadowColorLight="#F8F9FE"
+    app:neumorph_shadowElevation="@dimen/_8sdp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/black"
+            android:background="@android:drawable/ic_menu_slideshow" />
+
+        <TextView
+            android:id="@+id/FunTopicTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:layout_marginTop="5dp"
+            android:textSize="17sp"
+            android:layout_marginStart="18dp"/>
+
+    </LinearLayout>
+
+
+</soup.neumorphism.NeumorphCardView>

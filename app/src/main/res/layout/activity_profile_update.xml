@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fastestindia.thedatatalk.ProfileActivities.ProfileUpdateActivity"
+    android:background="@drawable/registrationbackground">
+
+    <TextView
+        android:id="@+id/Profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="10dp"
+        android:text="Profile"
+        android:textColor="@color/green"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.017"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="234dp"
+        android:layout_marginTop="16dp"
+        android:src="@color/white"
+        app:layout_constraintStart_toEndOf="@id/Profile"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/Fname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@color/black"
+                android:textSize="13sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/Lname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:ems="5"
+                android:inputType="textPersonName"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@drawable/text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/Designation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:ems="5"
+                android:hint="Designation"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@drawable/text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/Company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:ems="5"
+                android:hint="Company"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@drawable/text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/Experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:ems="5"
+                android:hint="Experience"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@drawable/text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/College"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:ems="5"
+                android:hint="College"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@drawable/text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/Stream"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:ems="5"
+                android:hint="Stream"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@drawable/text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerHorizontal="true"
+            app:hintTextColor="@color/black">
+
+            <EditText
+                android:id="@+id/ProfileBrief"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@android:color/transparent"
+                android:ems="5"
+                android:hint="Profile Brief"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textCursorDrawable="@drawable/text_cursor_color"
+                android:textSize="16sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/UpdatePassword"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle"
+                android:backgroundTint="@color/light_green"
+                android:text=" Update Password"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/Update"
+                android:layout_marginStart="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle"
+                android:backgroundTint="@color/light_green"
+                android:gravity="center"
+                android:text="Update"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

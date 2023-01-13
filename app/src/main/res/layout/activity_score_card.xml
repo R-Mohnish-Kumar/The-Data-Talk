@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestActivities.ScoreCardActivity"
+    android:backgroundTint="#E4EBF4"
+    app:neumorph_backgroundColor="@color/peach_puff"
+    app:neumorph_shadowColorDark="#CDD5EA"
+    app:neumorph_shadowColorLight="#F8F9FE"
+    app:neumorph_shadowElevation="@dimen/_8sdp"
+    app:neumorph_shapeAppearance="@style/NeumorphismCard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:fontFamily="@font/audiowide"
+        android:text="Your Score"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_50sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/alef"
+        android:text="No.of correct questions:- "
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/totalCorrectAns"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/alef"
+        android:text=""
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/totalWrongAns"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/alef"
+        android:text=""
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/alef"
+        android:text="No.of wrong questions:- "
+        android:textSize="19sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/totalScore"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/alef"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/exitButton"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/rectangle"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/audiowide"
+        android:text="exit"
+        android:textColor="@color/black" />
+
+
+
+
+</soup.neumorphism.NeumorphCardView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlogActivities.BlogDataContentActivity"
+    android:background="@drawable/blogbackground2">
+    <ImageButton
+        android:id="@+id/backImageButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/arrow"
+        android:backgroundTint="@color/flouroscent_green" />
+    <ImageButton
+        android:id="@+id/backToHomePageImageButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="335dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/home"
+        android:backgroundTint="@color/flouroscent_green" />
+
+    <TextView
+        android:id="@+id/blogTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/days_one"
+        android:text="Blog title"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="35dp"
+        android:background="@color/white"
+        android:layout_marginTop="210dp"
+        app:cardElevation="20dp">
+
+        <TextView
+            android:id="@+id/blogDescriptionTextView"
+            android:layout_width="315dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/artifika"
+            android:scrollbars="vertical|horizontal"
+            android:text="hi hello"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

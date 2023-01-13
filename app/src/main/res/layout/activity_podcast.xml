@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PodcastActivities.SeasonActivities.PodcastActivity"
+    android:background="@drawable/homepagebackground2">
+
+    <ImageButton
+        android:id="@+id/backToHomePageImageButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/home"
+        android:backgroundTint="@color/white" />
+
+    <GridLayout
+        android:layout_width="355dp"
+        android:layout_height="499dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="130dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/season1CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="124dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/one" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Season"
+                    android:textStyle="bold"
+                    android:textColor="@color/light_green"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/season2CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="124dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/two" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Season"
+                    android:textStyle="bold"
+                    android:textColor="@color/light_green"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/season3CardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="124dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/three" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Season"
+                    android:textStyle="bold"
+                    android:textColor="@color/light_green"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/artifika"
+        android:text="Podcast"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+
+
+</RelativeLayout>
